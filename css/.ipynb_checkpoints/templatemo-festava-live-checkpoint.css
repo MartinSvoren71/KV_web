@@ -13,7 +13,7 @@ https://templatemo.com/tm-583-festava-live
 :root {
   --white-color:                  #ffffff;
   --primary-color:                #d5992d;
-  --secondary-color:              #d5992d	;
+  --secondary-color:              darkorange	;
   --section-bg-color:             #f0f8ff;
   --custom-btn-bg-color:          #EE5007;
   --custom-btn-bg-hover-color:    #c01f27;
@@ -335,7 +335,7 @@ strong {
 }
 
 img.main {
-  width: 80%;
+  width: 60%;
  
   height: auto;
   max-width: 80%;
@@ -559,20 +559,20 @@ background-image: linear-gradient(to bottom, #0d2a1e, #071416);
             padding: 0;
         }
         .containerX {
-            border: 10px inset var(--secondary-color);
+            border: 10px inset darkorange;
             border-radius: var(--border-radius-large);
-            background-color: rgba(0, 0, 0, 0.4);
+            background-color: rgba(0, 0, 0, 0.6);
             filter: drop-shadow(0 0 0.01rem black);
             display: flex;
             padding: 0px;
             width: 42vw;
             height: 40vh;
-            box-sizing: border-box;
             margin: 1%;
         }
  .containerX:hover {
-  border: 12px inset lightgreen;
-  filter: drop-shadow(0 0 0.01rem lightgreen);
+                       background-color: rgba(70, 80, 70, 0.6);
+            border: 10px outset limegreen;
+
 
 }
 
@@ -955,8 +955,8 @@ background-color: rgba(0, 0, 0, 0.6);
 
 }
 .pricing-thumb:hover {
-  border: 12px inset limegreen;
-    filter: drop-shadow(0 0 0.01rem limegreen);
+                       background-color: rgba(70, 80, 70, 0.6);
+            border: 10px outset limegreen;
 }
 
 .pricing-thumb h3 small {
@@ -965,6 +965,7 @@ background-color: rgba(0, 0, 0, 0.6);
   margin-right: 15px;
     
 }
+
 
 .pricing-list {
   column-count: 2;
@@ -978,7 +979,13 @@ background-color: rgba(0, 0, 0, 0.6);
   margin-bottom: 10px;
 }
 
+.pricing-tag{
+color:gold;
+}
 
+.pricing-tagX{
+color:silver;
+}
 
 .pricing-thumb .link-fx-1 {
   color: var(--primary-color);
